@@ -4,6 +4,7 @@ exports.WhatsWebURL = 'https://web.whatsapp.com/';
 
 exports.DefaultOptions = {
     puppeteer: {
+        executablePath: 'path/to/your/chrome.exe',
         headless: true,
         defaultViewport: null
     },
